@@ -3,6 +3,9 @@
 ## Descrição do Projeto
 Este projeto utiliza Redes Neurais Convolucionais (CNN) para detectar a presença de tumores cerebrais em imagens de ressonância magnética (MRI). O objetivo é auxiliar profissionais de saúde a diagnosticar tumores de forma mais rápida e precisa, utilizando a tecnologia de aprendizado de máquina.
 
+## Video de apresentação do projeto
+- https://youtu.be/gl9iJfCAKXo
+
 ## Funcionalidades
 Detecção Automatizada: Identifica automaticamente a presença de tumores em imagens de MRI.
 Alto Desempenho: Utiliza a arquitetura MobileNetV2 para garantir um processamento eficiente e resultados precisos.
@@ -46,13 +49,13 @@ Imagens para o teste final:
 Dataset base:
 - https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset/
 
-## Uso
+## Uso do modelo
 Para usar o modelo de detecção de tumores, siga estes passos:
 
-- Carregue a imagem de ressonância magnética cerebral usando a função de carregamento disponível no script (ultima parte).
+- Instale as dependências necessárias (Python, TensorFlow, NumPy, Matplotlib)
+- Carregue o modelo usando tf.keras.models.load_model
+- Carregue a imagem de ressonância magnética cerebral usando a função de carregamento disponível no script (links acima).
 - Execute o modelo para fazer a predição.
-- O modelo indicará se a imagem apresenta indícios de tumor cerebral.
+Resultado: O modelo indicará se a imagem apresenta indícios de tumor cerebral.
 
-## Video de apresentação do projeto
-- https://youtu.be/gl9iJfCAKXo
 
