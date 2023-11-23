@@ -23,11 +23,28 @@ Fácil de Usar: Interface simples para carregar imagens e obter diagnósticos.
 - Matplotlib
 
 ## Instalação e Configuração
+### Obs.: Caso for rodar novamente os testes, lembre-se de atualizar os paths para os datasets
+
 Clone o Repositório:
 git clone https://github.com/Ideraldo/Analise-de-Tumores-Cerebrais.git
 
-Instale as Dependências:
+OU
+
+Baixe o arquivo .ipynb para executa-lo no google colab
+
+Instale as Dependências (caso for rodar localmente):
 pip install tensorflow keras numpy matplotlib
+
+## Arquivos utilizados para teste e treino
+- Dados de treino: https://drive.google.com/drive/folders/1maO0Lb4Sa2a9dNH6INYKdgAO-X1tYApU?usp=sharing 
+- Dados de teste: https://drive.google.com/drive/folders/1rjAhuk8adObaYdRtHouIWE9GTKTe-3XV?usp=sharing
+
+Imagens para o teste final:
+- Com tumor: https://drive.google.com/drive/folders/121VjmZi54Dr3_dXT0OZbmpC7K_pbOEmV?usp=sharing
+- Sem tumor: https://drive.google.com/drive/folders/1Bl3aY-tED1RX1OONiLstHkszaGkGtp8g?usp=sharing
+
+Dataset base:
+- https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset/
 
 ## Uso
 Para usar o modelo de detecção de tumores, siga estes passos:
@@ -36,4 +53,6 @@ Para usar o modelo de detecção de tumores, siga estes passos:
 - Execute o modelo para fazer a predição.
 - O modelo indicará se a imagem apresenta indícios de tumor cerebral.
 
+## Video de apresentação do projeto
+- https://youtu.be/gl9iJfCAKXo
 
