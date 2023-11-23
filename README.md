@@ -1,4 +1,7 @@
 # Detecção de Tumores Cerebrais com CNN
+Imagem Ilustrativa:
+
+![image](https://github.com/Ideraldo/Analise-de-Tumores-Cerebrais/assets/67620423/86b9d394-9a73-493e-b630-c314c26f0f46)
 
 ## Descrição do Projeto
 Este projeto utiliza Redes Neurais Convolucionais (CNN) para detectar a presença de tumores cerebrais em imagens de ressonância magnética (MRI). O objetivo é auxiliar profissionais de saúde a diagnosticar tumores de forma mais rápida e precisa, utilizando a tecnologia de aprendizado de máquina.
