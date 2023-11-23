@@ -7,9 +7,9 @@ Este projeto utiliza Redes Neurais Convolucionais (CNN) para detectar a presenç
 - https://youtu.be/gl9iJfCAKXo
 
 ## Funcionalidades
-Detecção Automatizada: Identifica automaticamente a presença de tumores em imagens de MRI.
-Alto Desempenho: Utiliza a arquitetura MobileNetV2 para garantir um processamento eficiente e resultados precisos.
-Fácil de Usar: Interface simples para carregar imagens e obter diagnósticos.
+- Detecção Automatizada: Identifica automaticamente a presença de tumores em imagens de MRI.
+- Desempenho: Utiliza a arquitetura MobileNetV2 para garantir um processamento rápido, eficiente e resultados precisos.
+- Fácil de Usar: Interface simples para carregar imagens e obter diagnósticos.
 
 ## Tecnologias Utilizadas
 - TensorFlow
